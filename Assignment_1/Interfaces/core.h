@@ -5,8 +5,8 @@
 #define ROUND_PHASE 2
 #define END_PHASE 3
 
-void startGame();
 void initializeGame();
+void startGame();
 void terminateGame();
 
 #endif
