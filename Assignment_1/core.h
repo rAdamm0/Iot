@@ -4,7 +4,7 @@
 #define START_PHASE 1
 #define ROUND_PHASE 2
 #define END_PHASE 3
-
+#define SLEEP 4
 
 void initializeGame();
 void startingPhase();
