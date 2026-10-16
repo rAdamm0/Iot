@@ -9,7 +9,7 @@ int pins[] = {RED_PIN1, RED_PIN2, GREEN_PIN1, GREEN_PIN2};
 int buttons[] = {BUT1, BUT2};
 
 void initializeGame(){
-  Serial.begin(115200);
+  logMsg("Initialization");
   for(int i = 0; i< N_PLAYERS*2; i++){
     pinMode(pins[i], OUTPUT);
   }

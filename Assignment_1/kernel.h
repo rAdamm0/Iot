@@ -3,7 +3,7 @@
 
 #include "Arduino.h" 
 
-#define DEBUG
+#define __DEBUG__
 /**
 */
 void initKernel();

@@ -8,7 +8,9 @@
 #define GREEN_PIN1 6
 #define GREEN_PIN2 5
 
-#define BUT1 4
-#define BUT2 7
+#define BUT1 2
+#define BUT2 3
+
+#define SLEEP_TIMER 10//s
 
 #endif
